@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('src/assets/img/hero-bg.jpg')",
-        'contact-bg':"url('src/assets/img/contact-bg.jpg')"
+        'hero-pattern': "url(/img/hero-bg.jpg)",
+        'contact-bg':"url('/img/contact-bg.jpg')"
       }
     },
   },
