@@ -19,7 +19,8 @@ import  AdminDashboard  from "./components/adminPages/AdminDashboard";
 import { ManageProducts } from "./components/adminPages/ManageProducts";
 import MedicineForm from "./components/adminPages/MedicineForm";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "./firebase/firebase";
+import { db } from "./firebase";
+
 // import { db } from "./firebase/firebase";
 
 function App() {
