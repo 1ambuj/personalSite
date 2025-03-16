@@ -1,6 +1,6 @@
 import { FaInstagram } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io5";
-import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 export default function SubHeader(){
     return (
@@ -10,9 +10,9 @@ export default function SubHeader(){
               <span >Call : +01 1234567890</span>
            </div>
            <div className="list-none flex gap-6 text-2xl">
-              <li><FaFacebookF  /></li>
               <li><IoLogoTwitter /></li>
-              <li><FaInstagram /></li>
+              <a href="https://www.linkedin.com/in/shruti-tiwari-b26232257/"><li>< FaLinkedin /></li></a>
+             <a href="https://www.instagram.com/shruti_shura/"> <li><FaInstagram /></li></a>
            </div>
         </nav>
     )
