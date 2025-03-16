@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../../context/authContext";
 import { doc, getDoc, setDoc } from "firebase/firestore";
-import { db } from "../../firebase/firebase";
+import { db } from "../../Firebase/firebase";
 
 
 const Login = () => {
