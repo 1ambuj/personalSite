@@ -5,7 +5,7 @@ import {
   signInWithPopup, 
   signOut 
 } from "firebase/auth";
-import { auth, db } from "./index.js"; 
+import { auth, db } from "./firebase.js"; 
 import { doc, setDoc, getDoc } from "firebase/firestore"; 
 
 // 🔥 Sign Up with Email & Password (Saves role in Firestore)

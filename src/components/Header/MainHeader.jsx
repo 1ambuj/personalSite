@@ -4,7 +4,7 @@ import Logo from "../../assets/img/logo.png";
 import Search from "../../assets/img/search-icon.png";
 import User from "../../assets/img/user.png";
 import { useAuth } from "../../context/authContext";
-import { doSignOut } from "../../firebase/auth";
+import { doSignOut } from "../../Firebase/auth";
 
 const MainHeader = () => {
   const { currentUser, role } = useAuth();

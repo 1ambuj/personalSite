@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../../firebase";
+import { db } from "../../Firebase";
 import { Link } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
 import Health from "../../assets/img/catagory1.png"
